@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{17fa5a9e-239d-4ff5-a708-81f99eaea646}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{30939d73-16a3-47e6-bbe2-89bd66fac3f0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e4486edc-d632-4f61-937a-adb42a789f52}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Network Files">
+      <UniqueIdentifier>{61584a38-91d8-4c81-a501-e7c1532deb1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Files\Misc">
+      <UniqueIdentifier>{9f9cdb4a-4549-4923-962b-be5d3bd1cab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files">
+      <UniqueIdentifier>{ddbc9d6f-ef1f-438d-ae43-9daec68a55ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files\DirectX Files">
+      <UniqueIdentifier>{d5a757aa-63f9-4ed6-b445-fb98ec879142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files\Common Files">
+      <UniqueIdentifier>{2181d9ea-07bb-4986-9ea7-bc493881844c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files\Common Files\Script">
+      <UniqueIdentifier>{8203e23c-8be8-409b-91ec-5cb83a37423a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine">
+      <UniqueIdentifier>{97b1c3f1-cb04-4a81-97a7-4e0a3e3cc96a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DPCoreClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPDatabaseClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPLoginSrvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginProtect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_DirectX\dxutil.cpp">
+      <Filter>Neuz Files\DirectX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\file.cpp">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\timer.cpp">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\vUtil.cpp">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\xutil.cpp">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\scanner.cpp">
+      <Filter>Neuz Files\Common Files\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLFileEncryption.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLFlyffConfig.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\FLGameTimer.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLTm.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\FLXTrap_Server.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LoginServer.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DPCoreClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DPDatabaseClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DPLoginSrvr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProtect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\CmnHdr.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\MsgHdr.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\ObjMap.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\DefineCommon.h">
+      <Filter>Neuz Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_DirectX\dxutil.h">
+      <Filter>Neuz Files\DirectX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\data.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\file.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\timer.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\vUtil.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\xutil.h">
+      <Filter>Neuz Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\scanner.h">
+      <Filter>Neuz Files\Common Files\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLCommonDumper.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLFileEncryption.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLFlyffConfig.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\FLGameTimer.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLPacketStruct.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLReturnStateCode.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLTm.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\FLXTrap_Server.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FlyffCommonDefine.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="LoginServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LoginServer.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

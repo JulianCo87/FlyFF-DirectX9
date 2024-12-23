@@ -1,0 +1,50 @@
+USE [master]
+GO
+
+/****** Object:  LinkedServer [ITEM]    Script Date: 2/1/2020 9:15:16 PM ******/
+EXEC master.dbo.sp_addlinkedserver @server = N'ITEM', @srvproduct=N'ITEM', @provider=N'SQLNCLI11', @datasrc=N'MENTUS\MSSQL_FLYFFV212', @catalog=N'ITEM_DBF'
+ /* For security reasons the linked server remote logins password is changed with ######## */
+EXEC master.dbo.sp_addlinkedsrvlogin @rmtsrvname=N'ITEM',@useself=N'False',@locallogin=NULL,@rmtuser=N'sa',@rmtpassword='########'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'collation compatible', @optvalue=N'false'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'data access', @optvalue=N'true'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'dist', @optvalue=N'false'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'pub', @optvalue=N'false'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'rpc', @optvalue=N'true'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'rpc out', @optvalue=N'true'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'sub', @optvalue=N'false'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'connect timeout', @optvalue=N'0'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'collation name', @optvalue=null
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'lazy schema validation', @optvalue=N'false'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'query timeout', @optvalue=N'0'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'use remote collation', @optvalue=N'true'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'ITEM', @optname=N'remote proc transaction promotion', @optvalue=N'true'
+GO
+
+
+

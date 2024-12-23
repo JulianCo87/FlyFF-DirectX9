@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c6ccbcd0-cdcb-4424-b1f9-42a5a165dbd2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6b1bf2c6-abc3-43c4-a729-beaab2508b7c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{48d6ec60-fa95-47ec-bafd-17d47ea3fbf0}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Network Files">
+      <UniqueIdentifier>{48fa53ca-e4bb-4ed8-b725-301842a9f987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Files\Misc">
+      <UniqueIdentifier>{13e201fa-de8e-4b58-87c4-a8487cc43b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Common Files">
+      <UniqueIdentifier>{20d5c111-37ee-4fb2-b965-74160359b70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Common Files\DX">
+      <UniqueIdentifier>{2414e4b0-e834-43a1-b7e9-a1dba549a6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Common Files\Script">
+      <UniqueIdentifier>{476e5d27-08ce-4273-a4af-ac8f971b1338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ODBC Files">
+      <UniqueIdentifier>{3810c3ae-91a9-4cbc-877b-ecc6ef8a5be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine">
+      <UniqueIdentifier>{aca6c65e-f797-41ca-a84b-8c61e525bcc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine\UTIL">
+      <UniqueIdentifier>{c156f76e-8415-421a-87b2-9e2ac8418a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine\Packet">
+      <UniqueIdentifier>{8fdc18c8-6e98-438c-a9ae-d923630119f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine\Packet\Server Description">
+      <UniqueIdentifier>{4a64a5e6-5017-426d-8607-467d6d8d9446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{eb263f8a-0093-4f44-889b-db2c57c3b781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth\Indonesia">
+      <UniqueIdentifier>{54c3959a-9ff1-48fc-8915-80ec48233f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth\Japan">
+      <UniqueIdentifier>{e20e38c5-2cb9-499b-93bf-f94fc2846dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth\Europe">
+      <UniqueIdentifier>{ae307a6a-6354-4809-a368-4df4bcb74d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth\USA">
+      <UniqueIdentifier>{aca52046-bc48-4ceb-8d39-92307063d507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Content">
+      <UniqueIdentifier>{3672a0a2-8486-4a7b-a218-4839c083d912}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="certifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dpaccountclient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPCertifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Network\tools.cpp">
+      <Filter>Network Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\file.cpp">
+      <Filter>Neuz Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\FLContentSwitch.cpp">
+      <Filter>Neuz Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\timer.cpp">
+      <Filter>Neuz Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\vutil.cpp">
+      <Filter>Neuz Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\xutil.cpp">
+      <Filter>Neuz Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_DirectX\dxutil.cpp">
+      <Filter>Neuz Common Files\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\scanner.cpp">
+      <Filter>Neuz Common Files\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_database\Query.cpp">
+      <Filter>ODBC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLFileEncryption.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLFlyffConfig.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\FLGameTimer.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\FLServerDescription.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLTm.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\UTIL\FLFileKeyGenerator.cpp">
+      <Filter>__CommonDefine\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\UTIL\FLKeyGenerator.cpp">
+      <Filter>__CommonDefine\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\Packet\FLPacket.cpp">
+      <Filter>__CommonDefine\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\Packet\FLPacketServerDescription.cpp">
+      <Filter>__CommonDefine\Packet\Server Description</Filter>
+    </ClCompile>
+    <ClCompile Include="FLAuthWait.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="FLDBManager_Auth_Indonesia.cpp">
+      <Filter>Auth\Indonesia</Filter>
+    </ClCompile>
+    <ClCompile Include="FLIDNAuthClient.cpp">
+      <Filter>Auth\Indonesia</Filter>
+    </ClCompile>
+    <ClCompile Include="FLIDNAuthProtocol.cpp">
+      <Filter>Auth\Indonesia</Filter>
+    </ClCompile>
+    <ClCompile Include="FLDBManager_Auth_Japan.cpp">
+      <Filter>Auth\Japan</Filter>
+    </ClCompile>
+    <ClCompile Include="FLDBManager_Auth_Europe.cpp">
+      <Filter>Auth\Europe</Filter>
+    </ClCompile>
+    <ClCompile Include="FLDBManager_Auth_USA.cpp">
+      <Filter>Auth\USA</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="certifier.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dpaccountclient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DPCertifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FLDBOverlappedPlus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\cmnhdr.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\MsgHdr.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Network\tools.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\Misc.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\data.h">
+      <Filter>Neuz Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\DefineCommon.h">
+      <Filter>Neuz Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\file.h">
+      <Filter>Neuz Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\FLContentSwitch.h">
+      <Filter>Neuz Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\timer.h">
+      <Filter>Neuz Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\vutil.h">
+      <Filter>Neuz Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\xutil.h">
+      <Filter>Neuz Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_DirectX\dxutil.h">
+      <Filter>Neuz Common Files\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\scanner.h">
+      <Filter>Neuz Common Files\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_database\Query.h">
+      <Filter>ODBC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLCommonDumper.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLFileEncryption.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLFlyffConfig.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\FLGameTimer.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLPacketStruct.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLReturnStateCode.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\FLServerDescription.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLTm.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FlyffCommonDefine.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\UTIL\FLFileKeyGenerator.h">
+      <Filter>__CommonDefine\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\UTIL\FLKeyGenerator.h">
+      <Filter>__CommonDefine\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\Packet\FLPacket.h">
+      <Filter>__CommonDefine\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\Packet\FLPacketAllDefine.h">
+      <Filter>__CommonDefine\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\Packet\FLPacketServerDescription.h">
+      <Filter>__CommonDefine\Packet\Server Description</Filter>
+    </ClInclude>
+    <ClInclude Include="FLAuthWait.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="FLIDNAuthClient.h">
+      <Filter>Auth\Indonesia</Filter>
+    </ClInclude>
+    <ClInclude Include="FLIDNAuthDefine.h">
+      <Filter>Auth\Indonesia</Filter>
+    </ClInclude>
+    <ClInclude Include="FLIDNAuthProtocol.h">
+      <Filter>Auth\Indonesia</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="certifier.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Certifier.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

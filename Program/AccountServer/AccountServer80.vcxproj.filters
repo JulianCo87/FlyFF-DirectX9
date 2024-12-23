@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{44c68fde-7bf9-49f3-8193-caf8bdeae405}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bac8d029-11bd-404d-bf39-e856c58ed24d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{6562c9ed-2d44-44b4-8730-2aad72a65a4f}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Network Files">
+      <UniqueIdentifier>{9c91acec-3e3b-4001-bbcc-af95bec84cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Files\Misc">
+      <UniqueIdentifier>{68822163-7c78-44c7-8491-8a420a7b024c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files">
+      <UniqueIdentifier>{d737868b-f80b-45ee-8661-d40ac94cfc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files\DX">
+      <UniqueIdentifier>{70285319-2a5a-4885-a7bd-80f130744727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Files\Cmn">
+      <UniqueIdentifier>{d74dbc53-c1b3-498d-88fe-36ac90a050a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ODBC Files">
+      <UniqueIdentifier>{c391b6f3-1fbd-483e-b036-92fd98fc840e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Billing">
+      <UniqueIdentifier>{a070f76c-c513-44e0-b2a7-5fb88022e85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine">
+      <UniqueIdentifier>{709f54cf-ad83-4fc4-9a11-dc00276fa815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine\Packet">
+      <UniqueIdentifier>{476d3136-36a1-4b21-b715-2d6f4231195e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine\Packet\Server Description">
+      <UniqueIdentifier>{d6c73a9e-67da-4726-8b0e-874ff1ff47be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine\Util">
+      <UniqueIdentifier>{b9ae3ed5-f9f5-4e75-a8c2-65b864e5d14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Common">
+      <UniqueIdentifier>{cf8b241d-0776-4088-9500-6e3054bbbe97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Content">
+      <UniqueIdentifier>{5e7578f6-0530-457e-9bdb-829344e2837b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="account.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionIPCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dpdbsrvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dpsrvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FLASDBManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_directx\dxutil.cpp">
+      <Filter>Neuz Files\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\file.cpp">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\scanner.cpp">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\timer.cpp">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\vutil.cpp">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\xutil.cpp">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Database\Query.cpp">
+      <Filter>ODBC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dpadbill.cpp">
+      <Filter>Billing</Filter>
+    </ClCompile>
+    <ClCompile Include="FLAdbillProtocol.cpp">
+      <Filter>Billing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLFileEncryption.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLFlyffConfig.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\FLGameTimer.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\FLServerDescription.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLTm.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\Packet\FLPacket.cpp">
+      <Filter>__CommonDefine\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\Packet\FLPacketServerDescription.cpp">
+      <Filter>__CommonDefine\Packet\Server Description</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\UTIL\FLFileKeyGenerator.cpp">
+      <Filter>__CommonDefine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\UTIL\FLKeyGenerator.cpp">
+      <Filter>__CommonDefine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\FLContentSwitch.cpp">
+      <Filter>__Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\FLShutdownRule.cpp">
+      <Filter>__Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AccountServer.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="account.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionIPCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dpdbsrvr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dpsrvr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FLASDBManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\cmnhdr.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\msghdr.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\misc.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\DefineCommon.h">
+      <Filter>Neuz Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_directx\dxutil.h">
+      <Filter>Neuz Files\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\buyinginfo.h">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\data.h">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\file.h">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\scanner.h">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\timer.h">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\vutil.h">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\xutil.h">
+      <Filter>Neuz Files\Cmn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Database\Query.h">
+      <Filter>ODBC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dpadbill.h">
+      <Filter>Billing</Filter>
+    </ClInclude>
+    <ClInclude Include="FLAdbillProtocol.h">
+      <Filter>Billing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLCommonDumper.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLCommonStruct.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLFileEncryption.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLFlyffConfig.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\FLGameTimer.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLPacketStruct.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLReturnStateCode.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\FLServerDescription.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLTm.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FlyffCommonDefine.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\Packet\FLPacket.h">
+      <Filter>__CommonDefine\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\Packet\FLPacketAllDefine.h">
+      <Filter>__CommonDefine\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\Packet\FLPacketServerDescription.h">
+      <Filter>__CommonDefine\Packet\Server Description</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\UTIL\FLFileKeyGenerator.h">
+      <Filter>__CommonDefine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\UTIL\FLKeyGenerator.h">
+      <Filter>__CommonDefine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\FLContentSwitch.h">
+      <Filter>__Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\FLShutdownRule.h">
+      <Filter>__Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AccountServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AccountServer.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

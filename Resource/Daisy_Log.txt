@@ -1,0 +1,2 @@
+==================================================
+CPropAppletGeneral::OnOK_Title [IDS_RESDATA_INC_009395]

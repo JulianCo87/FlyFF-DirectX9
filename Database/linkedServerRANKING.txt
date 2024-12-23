@@ -1,0 +1,49 @@
+USE [master]
+GO
+
+/****** Object:  LinkedServer [RANKING]    Script Date: 2/1/2020 9:15:53 PM ******/
+EXEC master.dbo.sp_addlinkedserver @server = N'RANKING', @srvproduct=N'RANKING', @provider=N'SQLNCLI11', @datasrc=N'MENTUS\MSSQL_FLYFFV212', @catalog=N'RANKING_DBF'
+ /* For security reasons the linked server remote logins password is changed with ######## */
+EXEC master.dbo.sp_addlinkedsrvlogin @rmtsrvname=N'RANKING',@useself=N'False',@locallogin=NULL,@rmtuser=N'sa',@rmtpassword='########'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'collation compatible', @optvalue=N'false'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'data access', @optvalue=N'true'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'dist', @optvalue=N'false'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'pub', @optvalue=N'false'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'rpc', @optvalue=N'true'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'rpc out', @optvalue=N'true'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'sub', @optvalue=N'false'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'connect timeout', @optvalue=N'0'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'collation name', @optvalue=null
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'lazy schema validation', @optvalue=N'false'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'query timeout', @optvalue=N'0'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'use remote collation', @optvalue=N'true'
+GO
+
+EXEC master.dbo.sp_serveroption @server=N'RANKING', @optname=N'remote proc transaction promotion', @optvalue=N'true'
+GO
+
+

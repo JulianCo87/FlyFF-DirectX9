@@ -1,0 +1,22 @@
+#pragma once
+
+#define __APP_TELEPORTER
+#define __M_UTIL
+/*
+#define __M_USER_BOTS
+#ifdef __M_USER_BOTS 
+#define __M_USER_BOTS_FIX_BEHAVIOUR_INDEX
+#define __M_USER_BOTS_LIMIT_TIME
+#define __M_USER_BOTS_RELOAD_CONFIG
+#define __M_USER_BOTS_SPAWN_AT_TIME
+#define __M_USER_BOTS_UPDATE_GLOBAL_ID
+#define __M_USER_BOTS_IDLE
+#define __M_USER_BOTS_CHECK_DB
+#define __M_USER_BOTS_INDIVIDUAL
+#define __M_USER_BOTS_RELOAD_PROP
+#define __M_USER_BOTS_DB_BASE
+#define __M_USER_BOTS_MULTIPLE_LOGIN_DAILY
+#define __M_USER_BOTS_TERMINATE_FIX_WS
+#define BOT_ACCOUNT_NAME "1337server"
+#endif
+#define __PROFESSION*/

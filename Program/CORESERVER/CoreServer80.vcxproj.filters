@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{89ae37d4-d567-4ae7-86e0-5e99e01f3c9b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9c30a723-324f-4286-a2bd-d4f304c55bef}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Neuz Common Files">
+      <UniqueIdentifier>{32fbd917-7609-4902-b4ad-90238a216641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Common Files\DirectX Files">
+      <UniqueIdentifier>{9a363dc7-7176-4007-ab15-92a2041926a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Common Files\Common Files">
+      <UniqueIdentifier>{693f126e-a2b2-4a85-983c-a68e972a6d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Common Files\Common Files\Script">
+      <UniqueIdentifier>{c672980a-fa83-4c3b-867b-7c106b5703f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neuz Common Files\Common Files\Low">
+      <UniqueIdentifier>{b291840d-92e2-46bb-af20-78c22c479d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Files">
+      <UniqueIdentifier>{9902c7d8-2bde-412e-a6bf-34b70902e0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Files\Misc">
+      <UniqueIdentifier>{959d8fbc-2590-42db-8afa-2b06e8486af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{22e4ed07-18aa-4a09-b7ad-7cca9102bdf2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="__CommonDefine">
+      <UniqueIdentifier>{933800ae-9ade-477b-9f71-d029ccde19a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine\Packet">
+      <UniqueIdentifier>{4990f9fc-9409-4be9-9b78-12e7c8508f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__CommonDefine\Packet\전체알림메시지">
+      <UniqueIdentifier>{7b82cb67-9dcc-411c-9418-023891b69a24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoreServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPCacheSrvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPCoreSrvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPDatabaseClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dploginsrvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\playerdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WantedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_DirectX\dxutil.cpp">
+      <Filter>Neuz Common Files\DirectX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\file.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\guild.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\guildwar.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\InstanceDungeonBase.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\InstanceDungeonParty.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\party.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\rtmessenger.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\SeasonEffect.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\timer.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\vutil.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_common\xutil.cpp">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\scanner.cpp">
+      <Filter>Neuz Common Files\Common Files\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Common\FLGameTimer.cpp">
+      <Filter>Neuz Common Files\Common Files\Low</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_network\misc\src\ServerDesc.cpp">
+      <Filter>Network Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLFileEncryption.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLFlyffConfig.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\FLTm.cpp">
+      <Filter>__CommonDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\Packet\FLPacket.cpp">
+      <Filter>__CommonDefine\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_CommonDefine\Packet\FLPacketBroadCastMessage.cpp">
+      <Filter>__CommonDefine\Packet\전체알림메시지</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CoreServer.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DPCacheSrvr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DPCoreSrvr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DPDatabaseClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dploginsrvr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WantedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\authorization.h">
+      <Filter>Neuz Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\DefineCommon.h">
+      <Filter>Neuz Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_DirectX\dxutil.h">
+      <Filter>Neuz Common Files\DirectX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\buyinginfo.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\data.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\file.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\guild.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\guildwar.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\InstanceDungeonBase.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\InstanceDungeonParty.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\party.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\databaseserver\project.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\projectcmn.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\rtmessenger.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\SeasonEffect.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\timer.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\vutil.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_common\xutil.h">
+      <Filter>Neuz Common Files\Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\scanner.h">
+      <Filter>Neuz Common Files\Common Files\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Common\FLGameTimer.h">
+      <Filter>Neuz Common Files\Common Files\Low</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\CmnHdr.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\MsgHdr.h">
+      <Filter>Network Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\Misc.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\ObjMap.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_network\misc\include\ServerDesc.h">
+      <Filter>Network Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLCommonDumper.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLFileEncryption.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLFlyffConfig.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLPacketStruct.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLReturnStateCode.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLTm.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FLTypes.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\FlyffCommonDefine.h">
+      <Filter>__CommonDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\Packet\FLPacket.h">
+      <Filter>__CommonDefine\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\Packet\FLPacketAllDefine.h">
+      <Filter>__CommonDefine\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_CommonDefine\Packet\FLPacketBroadCastMessage.h">
+      <Filter>__CommonDefine\Packet\전체알림메시지</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="BoA!!!.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CoreServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CoreServer.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

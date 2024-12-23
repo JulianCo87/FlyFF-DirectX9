@@ -1,0 +1,3 @@
+dofile( ".\\LuaFunc\\BotBehaviorFunc.lua" )
+
+
